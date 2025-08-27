@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+PG_HOST="localhost"
+PG_PORT="5432"
+PG_DB="mimic4"
+PG_USER="user"
+PG_PASSWORD="password"
+PROVIDER="${PG_PROVIDER:-Npgsql.EntityFrameworkCore.PostgreSQL}"
+DIR="MIMICIV" #do not use dashes or spaces in directory names
